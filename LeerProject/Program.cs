@@ -6,7 +6,9 @@ namespace LeerProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int nr1 = "3";
+            Console.WriteLine();
+            Console.ReadLine();
         }
     }
 }
