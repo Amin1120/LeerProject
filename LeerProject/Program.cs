@@ -6,6 +6,7 @@ namespace LeerProject
     {
         static void Main(string[] args)
         {
+            string doos = "hallo hoe gaat het";
             Console.WriteLine("Hello, World!");
         }
     }
