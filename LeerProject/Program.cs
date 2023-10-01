@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Metadata;
 
 namespace LeerProject
 {
@@ -6,8 +7,12 @@ namespace LeerProject
     {
         static void Main(string[] args)
         {
-            string doos = "hallo hoe gaat het";
-            Console.WriteLine("Hello, World!");
+           
+
+            string readline = Console.ReadLine();
+            string tekst = Console.ReadLine();
+            string alles = readline + tekst;
+            Console.WriteLine(alles);
         }
     }
 }
